@@ -1,0 +1,185 @@
+.page
+{
+
+width:1350px;
+height:847px;
+
+
+
+}
+
+.headerpart
+{
+width:1350px;
+height:200px;
+background-color:rgb(12,100,198);
+color: white;
+
+}
+
+.headerpart .text
+{
+    text-align: center;
+    padding-top: 3%;
+}
+.headerpart .logo
+{
+   padding-left: 5%;
+   padding-top: 5%;
+   position: absolute;
+}
+
+
+.linkspart
+{
+width:1350px;
+height:40px;
+margin-top:1px;
+background-color:rgb(12,100,198);
+text-align: center;
+
+}
+
+.linkspart a
+{
+color:rgb(245,246,251);
+text-decoration:none;
+
+
+}
+
+.linkspart a:hover
+{
+background-color:rgb(245,246,251);
+color:rgb(12,100,198)
+
+}
+.bodypart
+{
+width:1350px;
+height:500px;
+margin-top:1px;
+
+}
+ 
+.bodypart .imagepart
+{
+width:790px;
+height: 500px;
+background-image:url('rio.jpg');
+text-align: center;
+padding: 53px;
+float: right;
+}
+
+.bodypart.newsupdate
+{
+    float: left;
+}
+.bodypart .newsupdate .news
+{
+width:450px;
+height:300px;
+border:2px solid;
+background-color: rgba(189, 2, 2, 0.432);
+
+
+}
+
+.bodypart .newsupdate .update
+{
+width:450px;
+height:300px;
+border:2px solid;
+background-color: rgba(189, 2, 2, 0.432);
+
+}
+
+.bodypart .update h2
+{
+    color: green;
+    text-align: center;
+}
+
+
+.bodypart .news h2
+{
+color:green;
+text-align: center;
+
+}
+
+.bodypart .newspart .news
+{
+width:490px;
+height:700px;
+
+
+
+
+
+}
+.bodypart .newspart .news h4
+{
+color:blue;
+
+}
+.bodypart h6
+{
+color:blue;
+text-align:center;
+
+
+
+}
+.footerpart
+{
+width:1350px;
+height:180px;
+border-style:groove;
+margin-top:2px;
+background-color:rgba(8, 216, 60, 0.836);
+text-align: center;
+padding-top: 2%;
+
+}
+
+.footerpart .left
+{
+    float: left;
+    padding-left: 15%;
+    padding-top: 3%;
+    
+}
+.dropbtn {  
+    background-color: rgba(206, 21, 144, 0.747);  
+    color: black;  
+    padding: 10px;  
+    font-size: 17px;  
+    border-style: initial;
+    width: 200px;
+    
+}  
+.dropdown {  
+    display: inline-block;  
+    position: relative  
+}  
+.dropdown-content {  
+    position: absolute;  
+    background-color: lightgrey;  
+    min-width: 200px;  
+    display: none;  
+    z-index: 1;  
+}  
+.dropdown-content a {  
+    color: black;  
+    padding: 12px 16px;  
+    text-decoration: none;  
+    display: block;  
+}  
+
+.dropdown:hover .dropdown-content {  
+    display: block;  
+}  
+
+
